@@ -1,0 +1,43 @@
+{
+	"name": "scaffold",
+	"description": "DOM based template engine",
+	"version": "0.0.1",
+	"homepage": "https://github.com/rspieker/node_scaffold",
+	"license": "MIT",
+
+	"keywords": [
+		"dom",
+		"template"
+	],
+
+	"author": {
+		"name": "Rogier Spieker",
+		"email": "spieker@gmail.com"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rspieker/node_scaffold"
+	},
+
+	"bugs": {
+		"url": "https://github.com/rspieker/node_scaffold/issues"
+	},
+
+	"engines": {
+		"node": ">=0.8"
+	},
+
+	"dependencies": {
+		"xmldom": "~0.1.19",
+		"xpath": "~0.0.5",
+		"mime": "1.2.x",
+		"async": "~0.2"
+	},
+
+	"main": "./lib/index.js",
+
+	"directories": {
+		"lib": "./lib"
+	}
+}
